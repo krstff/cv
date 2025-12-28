@@ -1,0 +1,11 @@
+This is LuaTeX, Version 1.21.0 (TeX Live 2025)  (format=luatex 2025.5.13)  27 DEC 2025 17:56
+ restricted system commands enabled.
+**q
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/q.tex File ignored
+)
+! Emergency stop.
+<*> q
+  
+*** (job aborted, no legal \end found)
+
+!  ==> Fatal error occurred, no output PDF file produced!
