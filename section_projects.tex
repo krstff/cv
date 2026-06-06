@@ -28,7 +28,33 @@
 	}
 	{Research, Python, Data Science, Bioinformatics}
 
-    % 2. PERSONAL PROJECTS
+    % 2. GPT-2 From Scratch
+	\project
+	{GPT-2 Language Model - From-Scratch Implementation}{2025}
+	{\website{https://github.com/krstff}{GitHub: krstff}}
+	{Built and trained a complete GPT-2 transformer (83M parameters) entirely from scratch in PyTorch.
+	\begin{itemize}
+		\item Implemented all core components: multi-head masked self-attention, pre-LayerNorm transformer blocks, feed-forward layers with GELU activation, token and positional embeddings.
+    \item Pre-trained on 3.2 billion tokens (OpenWebText subset) reaching a stable cross-entropy loss of ~3.75; fine-tuned for haiku style mimicry.
+    \item Mixed-precision (bfloat16) training loop with gradient clipping, automated loss logging, and multi-GPU support via \texttt{nn.DataParallel}.
+	\end{itemize}
+	}
+	{PyTorch, Transformers, Attention-mechanism, GPU Optimization}
+
+    % 3. LinguaDaily
+	\project
+	{LinguaDaily \textemdash{} AI-Powered Language Learning Daemon}{2025}
+	{\website{https://github.com/krstff}{GitHub: krstff}}
+	{Language-learning system delivering daily lessons via Telegram.
+	\begin{itemize}
+    \item Orchestrated multiple local LLMs on constrained 24GB VRAM (dual RTX 3060): Gemma\,4 MoE 26B Q4\_K\_M for translation and tutor chat, OmniVoice for TTS audio generation.
+    \item Built tutor chat with lesson context, flashcard quizzes, and a companion web UI for profile management, model selection, and system monitoring.
+		\item Implemented a RAG pipeline using grammar reference pdfs for grounded context in tutoring chat, eliminating reliance on model knowledge and limiting hallucinations.
+	\end{itemize}
+	}
+	{Python, RAG, Local LLMs, Telegram Bot API, TTS, Web UI}
+
+    % 4. PERSONAL PROJECTS
 	\project
 	{Personal Programming Projects}{2022 - Present}
 	{\website{https://github.com/krstff}{GitHub: krstff}} 
@@ -40,7 +66,7 @@
 	}
 	{Python, C, Markov Models, Optimization}
 
-    % 3. The Italy Volunteer Trip
+    % 5. The Italy Volunteer Trip
 	\project
 	{International Volunteer Program}{Summer 2025}
 	{Italy}
